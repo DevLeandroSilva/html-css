@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+/*
+@font-face {
+    font-family: 'PassionOne';
+    src: url('fonts/Passion_One/PassionOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gringa';
+    src: url('fonts/Sriracha/Sriracha-Regular.ttf') format('.truetype');
+}
+:root{
+    --font01: Arial, Helvetica, sans-serif;
+    --font02: 'gringa';
+    --font03: 'PassionOne'; 
+
+}
+body{
+    font-family: var('--font02');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body{
+    font-family: 'gringa';
+    min-width: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top:50px ;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.286);
+}
+*/
+/*
+.container{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#q1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 400px;
+    margin: 2px;
+    border-radius: 7px;
+}
+div#q2{
+    background-color: brown;
+    height: 200px;
+    width: 400px;
+    margin: 2px;
+    border-radius: 7px;
+}
+div#q3{
+    background-color: chocolate;
+    height: 200px;
+    width: 400px;
+    margin: 2px;
+    border-radius: 7px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+}
+#titulotable{
+    border: 2px solid black;
+    text-align: center;
+}
