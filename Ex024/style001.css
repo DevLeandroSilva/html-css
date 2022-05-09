@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+#container{
+    background-color: blueviolet;
+    height: 400px;
+    width: auto;
+}
+#content{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
