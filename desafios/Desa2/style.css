@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+width: 500px;
+margin: auto;
+min-width: 100px;
+}
+table{
+    text-align: center;
+    width: 500px;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+tfoot{
+font-weight: bold;
+width: 500px;
+}
+tbody tr:nth-child(2n){
+    background-color: rgba(128, 128, 128, 0.705);
+}
+caption{
+    color: aliceblue;
+    background-color: rgb(175, 164, 164);
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+thead tr th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+    
+}
+h1{
+    text-align: center;
+}
