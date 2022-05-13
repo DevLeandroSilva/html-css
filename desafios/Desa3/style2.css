@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 1px;  
+}
+.media{
+text-align: left;
+font-weight: bold;
+background-color: gray;
+color: white;
+}
+.medianota{
+    text-align: center;
+    font-weight: bold;
+    background-color: gray;
+    color: white;  
+}
+.cabecalho{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
